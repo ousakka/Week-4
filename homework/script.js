@@ -1,20 +1,20 @@
 let count = 0;
 
-function display() {
+function updateDisplay() {
   document.getElementById("count").textContent = count;
 }
 
 function increase() {
   count++;
-  display();
+  updateDisplay();
 }
 
 function decrease() {
   count--;
-  display();
+  updateDisplay();
 }
 
-function Reset() {
+function reset() {
   count = 0;
-  display();
+  updateDisplay();
 }
