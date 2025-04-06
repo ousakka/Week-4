@@ -10,12 +10,12 @@
   background-color: yellow;
 }
 
-#count {
+.count {
   font-size: 48px;
   margin: 1.25rem 0;
 }
 
-button {
+.button {
   font-size: 24px;
   padding: 0.625rem 1.25rem;
   margin: 0.5rem;
@@ -24,11 +24,11 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   filter: brightness(0.94);
 }
 
-button:active {
+.button:active {
   filter: brightness(0.9);
 }
 
