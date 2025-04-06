@@ -24,6 +24,14 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  filter: brightness(0.94);
+}
+
+button:active {
+  filter: brightness(0.9);
+}
+
 .plus {
   background-color: #4caf50;
   color: white;
